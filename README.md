@@ -1,6 +1,6 @@
 # School Archief
 
-## Taken, toetsen en andere dingen die niet voor leerlingen beschikbaar zijn
+## Taken, toetsen en andere, teacher-only dingen
 
 - 3e jaar natuurwetenschappen STEAM
     - [Informatica](/3NWSTb/2023-2024/INFORMATICA/)
