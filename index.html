@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Folders and Files</title>
+</head>
+<body>
+
+<script>
+    function listFoldersAndFiles(directory) {
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', directory, true);
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                const files = JSON.parse(xhr.responseText);
+
+                files.forEach(file => {
+                    const filePath = directory + '/' + file;
+
+                    const listItem = document.createElement('li');
+                    listItem.textContent = filePath;
+                    document.getElementById('fileList').appendChild(listItem);
+
+                    const statsXhr = new XMLHttpRequest();
+                    statsXhr.open('HEAD', filePath, true);
+
+                    statsXhr.onload = function () {
+                        if (statsXhr.status === 200) {
+                            if (statsXhr.getResponseHeader('Content-Type').includes('text/directory')) {
+                                listFoldersAndFiles(filePath);
+                            }
+                        }
+                    };
+
+                    statsXhr.send();
+                });
+            }
+        };
+
+        xhr.send();
+    }
+
+    const rootDirectory = '.'; // Replace with the path to your root directory
+    listFoldersAndFiles(rootDirectory);
+</script>
+
+<ul id="fileList"></ul>
+
+</body>
+</html>
