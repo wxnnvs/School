@@ -1,0 +1,97 @@
+[3NWSTb]
+    └── [2023-2024]
+        ├── [ART]
+            ├── monkey.png
+            ├── monkey2.69.png
+            ├── monkey3.png
+            ├── monkeyV2.69.png.blend
+            ├── monkeyV3.png.blend
+            └── monkeyV3.png.blend1
+        ├── [BIOLOGIE]
+            ├── [Begrippenlijsten]
+                └── 3.2 Biologie Begrippenlijst semester 1 2023-2024.pdf
+            └── [Practicums]
+                ├── Practicum lrk Prikkeldrempelwaarde.pdf
+                └── Practicum lrk Prikkels waarnemen.pdf
+        ├── [CHEMIE]
+            ├── [Cursus]
+                ├── LRK Thema 0 - Basiskennis chemie.pdf
+                ├── Oplossing oefeningen H2 Stoffen (1-6).pdf
+                └── Oplossingen oefeningen H3 deel 1 Mengsels en zuivere stoffen (1-4).pdf
+            ├── [Practicums]
+                ├── Practicum 1 lrk Werken met een bunsenbrander.pdf
+                ├── Practicum 2 excel Koken van een zuivere stof en een mengsel.xlsx
+                └── Practicum 2 lrk Koken van een zuivere stof en een mengsel.pdf
+            └── Volledige samenvatting 2de graad.pdf
+        ├── [FRANS]
+            ├── [Cursus]
+                └── Décrire le paysage à l’aide des mots-clés p. 26_OPLOSSING.pdf
+            ├── [Grammaire (IDK)]
+                ├── Comment raconter une histoire au passé - clé.docx
+                ├── La phrase hypothétique avec SI - exercices supplémentaires - solutions (1).docx
+                ├── Les démonstratifs - exercices supplémentaires - solutions.docx
+                └── Les possessifs - exercices supplémentaires-solutions.docx
+            └── [Indicatif Présent]
+                ├── Révision de l'indicatif présent_CLEF des exercices de synthèse.pdf
+                └── Révision de l_indicatif présent des verbes réguliers_exos supplémentaires_SLEUTEL.pdf
+        ├── [FYSICA]
+            ├── [Cursus]
+                ├── Fysica 3.2 - ingevulde cursus (pg. 74 - 75).pdf
+                ├── Oplossing oefeningen 8, 9 en 10 pg. 45.pdf
+                └── Oplossing opdracht 6 pg. 26-27.pdf
+            └── [Oefeningenbundels (IDK)]
+                ├── jaar3_kracht.pdf
+                ├── jaar3_licht.pdf
+                ├── jaar3_materie.pdf
+                └── jaar3_snelheid.pdf
+        ├── [GODSDIENST]
+            └── [Durf te vragen - BookWidget]
+                ├── vraag1.jpg
+                ├── vraag2.jpg
+                ├── vraag3.jpg
+                ├── vraag4.jpg
+                ├── vraag5.jpg
+                ├── vraag6.jpg
+                └── vraag7.jpg
+        ├── [INFORMATICA]
+            ├── [3]
+                ├── Cirkel.py
+                ├── Datatype.py
+                ├── [oefeningen 3.4]
+                    ├── Benzine.py
+                    ├── Kubus.py
+                    ├── Pythagoras.py
+                    └── vindX.py
+                └── Rechthoek.py
+            ├── [4]
+                ├── Deling.py
+                ├── Logica.py
+                ├── Transportkost.py
+                └── Transportkost2.py
+            ├── [5]
+                ├── Range.py
+                └── Tafels.py
+            └── [6]
+                ├── Herhaal.py
+                └── While.py
+        ├── [NEDERLANDS]
+            ├── [Lessen]
+                ├── [Les 11]
+                    └── ExtraWerkbundel-DeDelenVanEenZin-VolledigeVerbetersleutel-ADM-20162017.pdf
+                └── [Les 5]
+                    └── Les5-VERBETERSLEUTEL-inclusief extra notitites (1, 3 en 4).pdf
+            └── [Tussenstop]
+                └── Tussenstop 1 - Verbetersleutel - Woordenschat en taal - incl. extra theorie je jou jouw.pdf
+        └── [WISKUNDE]
+            ├── [Getallenleer]
+                ├── Oefeningen 1.1.pdf
+                ├── Oplossingen 5uurs H1.2.pdf
+                ├── Oplossingen 5uurs H1.3.pdf
+                ├── Oplossingen 5uurs H1.4.pdf
+                └── Oplossingen 5uurs H1extra.pdf
+            └── [Meetkunde]
+                ├── VBTL_3_D5_Meetkunde_H1_1.1. OPL.pdf
+                ├── VBTL_3_D5_Meetkunde_H1_1.2. OPL.pdf
+                ├── VBTL_3_D5_Meetkunde_H1_1.3. OPL.pdf
+                ├── VBTL_3_D5_Meetkunde_H1_1.4. OPL.pdf
+                └── VBTL_3_D5_Meetkunde_H1_extra's OPL.pdf
