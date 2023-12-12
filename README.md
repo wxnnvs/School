@@ -5,9 +5,15 @@
 <details>
 <summary>3ejaars</summary>
 <br>
+<details>
+<summary>2023-2024</summary>
+<br>
 
 ```
 └── 📁2023-2024
+    └── 📁AARDRIJKSKUNDE
+        └── 📁Cursus
+            └── oplossingen oefening Aralmeer.docx
     └── 📁ART
         └── 0001-0100.mp4
         └── boom.blend
@@ -38,20 +44,26 @@
             └── DP Thema 3 Geluidsprikkels en horen.pdf
     └── 📁CHEMIE
         └── 📁Cursus
-            └── LRK Thema 0 - Basiskennis chemie.pdf
-            └── Oplossing oefeningen H2 Stoffen (1-6).pdf
-            └── Oplossingen oefeningen H3 deel 1 Mengsels en zuivere stoffen (1-4).pdf
+            └── LRK 3NW-(STEAM) - Deel 0 Basiskennis chemie.pdf
+            └── LRK 3NW-(STEAM) - Deel 1 Stoffen rondom ons.pdf
+        └── 📁Nieuwe map
         └── 📁Practicums
             └── Practicum 1 lrk Werken met een bunsenbrander.pdf
             └── Practicum 2 excel Koken van een zuivere stof en een mengsel.xlsx
             └── Practicum 2 lrk Koken van een zuivere stof en een mengsel.pdf
+        └── 📁Taken
+            └── DP Oefentoets opl chemische elementen in stoffen deel 2.pdf
+            └── Naamgeving chemische elementen opl.pdf
+            └── Naamgeving enkelvoudige en samengestelde zuivere stoffen opl.pdf
         └── Volledige samenvatting 2de graad.pdf
     └── 📁ENGELS
-        └── engels.txt
-        └── Schermafbeelding 2023-11-27 091549.png
     └── 📁FRANS
         └── 📁Cursus
-            └── Décrire le paysage à l’aide des mots-clés p. 26_OPLOSSING.pdf
+            └── 📁Trajet 1
+                └── Décrire le paysage à l’aide des mots-clés p. 26_OPLOSSING.pdf
+                └── Trajet 1_Journal des ados_vocabulaire supplémentaire à connaître.docx
+            └── 📁Trajet 2
+                └── Trajet 2_le sport les parties du corps les problèmes de santé et les soins_vocabulaire supplémentaire.docx
         └── 📁Grammaire (IDK)
             └── Comment raconter une histoire au passé - clé.docx
             └── La phrase hypothétique avec SI - exercices supplémentaires - solutions (1).docx
@@ -60,16 +72,28 @@
         └── 📁Indicatif Présent
             └── Révision de l'indicatif présent_CLEF des exercices de synthèse.pdf
             └── Révision de l_indicatif présent des verbes réguliers_exos supplémentaires_SLEUTEL.pdf
+        └── 📁Lecture
+            └── Le tour du Monde en 80 jours_Liste de vocabulaire à connaître_élève.docx
+        └── 📁Révision du conditionnel présent
+            └── Intro_S'exprimer en français en cours_3des SLEUTEL.pdf
+        └── 📁Révision l'article
+            └── Révision de la grammaire du premier semestre_L'emploi des articles CLE.pdf
     └── 📁FYSICA
         └── 📁Cursus
-            └── Fysica 3.2 - ingevulde cursus (pg. 74 - 75).pdf
-            └── Oplossing oefeningen 8, 9 en 10 pg. 45.pdf
-            └── Oplossing opdracht 6 pg. 26-27.pdf
+            └── 📁Thema 1
+                └── Oplossing oefeningen 8, 9 en 10 pg. 45.pdf
+                └── Oplossing opdracht 6 pg. 26-27.pdf
+            └── 📁Thema 2
+                └── Ingevuld thema massadichtheid.pdf
+            └── 📁Thema 3
+                └── Oefening 16 pg. 121 (Focus Fysica 3.2).pdf
         └── 📁Oefeningenbundels (IDK)
             └── jaar3_kracht.pdf
             └── jaar3_licht.pdf
             └── jaar3_materie.pdf
             └── jaar3_snelheid.pdf
+    └── 📁GESCHIEDENIS
+        └── _Stadswandeling 3e jaar - correctiesleutel.pdf
     └── 📁GODSDIENST
         └── 📁Durf te vragen - BookWidget
             └── vraag1.jpg
@@ -147,5 +171,20 @@
         └── 📁Toetsen
             └── Toets Vectoren versie B OPL.pdf
 ```
+</details>
+<details>
+<summary>vakantietaken</summary>
+<br>
+
+```
+└── 📁vakantietaken
+    └── 📁Frans
+        └── Copyright Pelckmans - Remediëring L’accord du participe passé (Word) (clé).docx
+        └── D2 La phrase conditionnelle-exercices supplémentaires SOLUTIONS.docx
+        └── D4_L'emploi des articles_exercices supplémentaires (corrigé).pdf
+        └── Dossier - grammaire - emploi des temps du passé - exercices supplémentaires - solutions (1).docx
+        └── le pronom personnel - exercices supplémentaires-Wendy-clé.docx
+```
+</details>
 
 </details>
