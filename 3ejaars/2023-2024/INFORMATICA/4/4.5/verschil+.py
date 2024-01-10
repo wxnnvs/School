@@ -4,5 +4,7 @@ getal2 = float(input("Tweede getal:  "))
 #check welke de grootste is
 if getal1>getal2:
     print(getal1-getal2)
-else:
+elif getal2>getal1:
     print(getal2-getal1)
+else:
+    print("De twee getallen zijn hetzelfde")
