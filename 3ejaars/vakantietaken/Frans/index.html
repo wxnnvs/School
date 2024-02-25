@@ -3,6 +3,7 @@
 
 <html>
   <body>
+    <h2 style="margin: none;">This file explorer is under construction. Use <a href="https://github.com/wxnnvs/school" target="_blank">github</a> instead</h2>
     <script>
       (async () => {
         const response = await axios.get('https://api.github.com/repos/wxnnvs/school/contents/3ejaars/vakantietaken/Frans/');
@@ -14,7 +15,7 @@
         }
 
         htmlString += '</ul>';
-        document.getElementsByTagName('body')[0].innerHTML = htmlString;
+        document.getElementsByTagName('div')[0].innerHTML = htmlString;
       })()
     </script>
     </body>
