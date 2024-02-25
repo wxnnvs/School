@@ -1,7 +1,0 @@
-.dir::before {
-    content: "📁";
-}
-
-.file::before {
-    content: "📄";
-}
