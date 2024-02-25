@@ -3,6 +3,7 @@
 
 <html>
   <body>
+  <main>
     <h2 style="margin: none;">This file explorer is under construction. Use <a href="https://github.com/wxnnvs/school" target="_blank">github</a> instead</h2>
     <div></div>
 <script>
@@ -10,14 +11,20 @@
         const response = await fetch("https://api.github.com/repos/wxnnvs/school/contents/3ejaars/2023-2024/FRANS/Révision l'article");
         const data = await response.json();
         let htmlString = '<ul>';
-        
-        for (let file of data) {
-          htmlString += `<li><a href="/${file.path}">${file.name}</a></li>`;
-        }
+          let fileClass = "file";
+          let dirClass = "dir";
 
-        htmlString += '</ul>';
-        document.getElementsByTagName('div')[0].innerHTML = htmlString;
+          for (let file of data) {
+            if (file.type === 'dir') {
+              htmlString += `<li class="${dirClass}"><a href="/${file.path}">${file.name}</a></li>`;
+              continue;
+            } else if (file.type === 'file') {
+              htmlString += `<li class="${fileClass}"><a href="/${file.path}">${file.name}</a></li>`;
+              continue;
+            }
+          }
       })()
     </script>
-    </body>
+        </main>
+</body>
 </html>
