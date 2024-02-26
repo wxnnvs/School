@@ -21,9 +21,7 @@
           if (file.type === 'dir') {
             htmlString += `<li class="${dirClass}"><a href="/${file.path}">${file.name}</a></li>`;
             continue;
-          } else if (file.name === "index.html") {
-            continue;
-          } else if (file.type === 'file') {
+          } else if (file.name === "index.html") {continue;} else if (file.type === 'file') {
             htmlString += `<li class="${fileClass}"><a href="/${file.path}">${file.name}</a></li>`;
             continue;
           }
