@@ -25,7 +25,9 @@
             continue;
           }
         }
-      })()
+        htmlString += '</ul>';
+        document.getElementsByTagName('div')[0].innerHTML = htmlString;
+})()
     </script>
   </main>
   <style>
