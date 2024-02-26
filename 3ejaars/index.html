@@ -3,9 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <html>
-  <body>
+
+<body>
   <main>
-    <h2 style="margin: none;">This file explorer is under construction. Use <a href="https://github.com/wxnnvs/school" target="_blank">github</a> instead</h2>
+    <h2 style="margin: none;">This file explorer is under construction. Use <a href="https://github.com/wxnnvs/school"
+        target="_blank">github</a> instead</h2>
     <div></div>
     <script>
       (async () => {
@@ -19,6 +21,8 @@
           if (file.type === 'dir') {
             htmlString += `<li class="${dirClass}"><a href="/${file.path}">${file.name}</a></li>`;
             continue;
+          } else if (file.name === "index.html") {
+            continue;
           } else if (file.type === 'file') {
             htmlString += `<li class="${fileClass}"><a href="/${file.path}">${file.name}</a></li>`;
             continue;
@@ -27,9 +31,7 @@
 
         htmlString += '</ul>';
         document.getElementsByTagName('div')[0].innerHTML = htmlString;
-        htmlString += '</ul>';
-        document.getElementsByTagName('div')[0].innerHTML = htmlString;
-})()
+      })()
     </script>
   </main>
   <style>
@@ -54,4 +56,5 @@
     }
   </style>
 </body>
+
 </html>
