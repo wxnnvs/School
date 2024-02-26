@@ -4,12 +4,15 @@
 
 <main>
     <h1>Sint-Barbara leaked files</h1>
-    <button class="button-link" style="text-align: center;" onclick="window.location.href='/explorer/'">File explorer</button>
-    <button class="button-link" style="text-align: center;" onclick="window.open('https://github.com/wxnnvs/school', '_blank')">Github repo</button>
+    <button class="button-link" style="text-align: center;" onclick="window.location.href='/explorer/'">File
+        explorer</button>
+    <button class="button-link" style="text-align: center;"
+        onclick="window.open('https://github.com/wxnnvs/school', '_blank')">Github repo</button>
     <style>
         h1 {
             text-align: center;
         }
+
         .button-link {
             display: block;
             width: 100%;
@@ -19,4 +22,12 @@
             color: black;
         }
     </style>
+    <script>
+        // use https://api.quotable.io/random to get a random quote and display it
+        fetch('https://api.quotable.io/random')
+            .then(response => response.json())
+            .then(data => {
+                document.body.innerHTML += `<p style="text-align: center;"><i>"${data.content}"</i> <br/><br/>- <b>${data.author}</b></p>`;
+            });
+    </script>
 </main>
