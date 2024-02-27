@@ -8,6 +8,18 @@
         explorer</button>
     <button class="button-link" style="text-align: center;"
         onclick="window.open('https://github.com/wxnnvs/school', '_blank')">Github repo</button>
+    <br><br>
+    <div id="quotes"></div>
+    <dialog id="disclaimer">
+        <h3>Disclaimer</h3>
+        <p>Dit is een project dat tot doel heeft een gecentraliseerd platform te bieden voor het beheren en organiseren
+            van schoolgerelateerde informatie. <br>
+            Dit project is ontworpen om het proces van het delen en toegang krijgen tot belangrijke informatie binnen
+            een schoolgemeenschap te vereenvoudigen.<br> Dit project is alleen bedoeld voor onderzoeksdoeleinden. We
+            moedigen geen overschrijven, spieken of enige vorm van academische oneerlijkheid aan.</p>
+        <button onclick="document.getElementById('disclaimer').close()">Close</button>
+    </dialog>
+
     <style>
         h1 {
             text-align: center;
@@ -21,13 +33,29 @@
             text-decoration: none;
             color: black;
         }
+
+        a {
+            text-decoration: underline;
+        }
+
+        a:hover {
+            cursor: pointer;
+        }
     </style>
     <script>
         // use https://api.quotable.io/random to get a random quote and display it
         fetch('https://api.quotable.io/random')
             .then(response => response.json())
             .then(data => {
-                document.body.innerHTML += `<p style="text-align: center;"><i>"${data.content}"</i> <br/><br/>- <b>${data.author}</b></p>`;
+                document.getElementById('quotes').innerHTML += `<p style="text-align: center;"><i>"${data.content}"</i> <br/><br/>- <b>${data.author}</b></p>`;
             });
+
+        // function to open the dialog
+        function openDialog() {
+            document.getElementById('disclaimer').showModal();
+        }
     </script>
 </main>
+<footer>
+    <a onclick="openDialog()">Disclaimer</a>
+</footer>
